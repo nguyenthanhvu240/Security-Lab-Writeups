@@ -1,2 +1,1 @@
-# MobileHackingLab-Challenges
-This repository provides instructions and write-ups to help you solve Android lab challenges from Mobile Hacking Lab.
+This repository is used to document write-ups for labs I have completed, for reference and educational purposes.
