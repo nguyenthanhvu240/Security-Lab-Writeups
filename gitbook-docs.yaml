@@ -1,0 +1,12 @@
+title: Security Lab Writeups
+description: Penetration testing writeups and security research
+
+structure:
+  readme: README.md
+
+spaces:
+  - title: Hacksmarter
+    content: ./Hacksmarter
+
+  - title: Mobile Hacking Lab
+    content: ./MobileHackingLab
