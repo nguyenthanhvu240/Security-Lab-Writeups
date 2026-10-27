@@ -1,10 +1,11 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
 site:
-  title: Security Lab Writeups
-  description: Penetration testing writeups and security research
-
-spaces:
-  - title: Hacksmarter
-    content: ./Hacksmarter
-
-  - title: Mobile Hacking Lab
-    content: ./MobileHackingLab
+  title: dzuu24 Docs
+  structure:
+    - type: space
+      key: space-1
+      title: Untitled
+      path: untitled
+      default: true
+      content:
+        directory: ./untitled
