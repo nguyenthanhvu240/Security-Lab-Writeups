@@ -1,8 +1,6 @@
-title: Security Lab Writeups
-description: Penetration testing writeups and security research
-
-structure:
-  readme: README.md
+site:
+  title: Security Lab Writeups
+  description: Penetration testing writeups and security research
 
 spaces:
   - title: Hacksmarter
