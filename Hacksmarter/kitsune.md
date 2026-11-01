@@ -263,7 +263,7 @@ type C:\Users\schlop\Desktop\user.txt
 
 **Proof:**
 ```
-HSM{823c2a4327e8b2e6bd762996115c071a}
+HSM{823c2a4327e8b2e6bd762996115c0****}
 ```
 
 ---
@@ -420,7 +420,7 @@ type C:\Users\Administrator\Desktop\root.txt
 
 **Proof:**
 ```
-HSM{13c4897877292fc104173ad41e4d166a}
+HSM{13c4897877292fc104173ad41e4d1****}
 ```
 
 ---
@@ -429,5 +429,5 @@ HSM{13c4897877292fc104173ad41e4d166a}
 
 | Flag | Value |
 |------|-------|
-| user.txt | HSM{823c2a4327e8b2e6bd762996115c071a} |
-| root.txt | HSM{13c4897877292fc104173ad41e4d166a} |
+| user.txt | HSM{823c2a4327e8b2e6bd762996115c0****} |
+| root.txt | HSM{13c4897877292fc104173ad41e4d1****} |

@@ -84,7 +84,7 @@ smbclient //10.0.16.8/automation -U 'automation%asdh023incasdahff9' \
 cat user.txt
 ```
 
-**User Flag:** `c3dcdda3950b1eca68477ce65da82392`
+**User Flag:** `c3dcdda3950b1eca68477ce65da8****`
 
 ---
 
@@ -216,7 +216,7 @@ nxc nfs walnut.local --get-file '/root/root.txt' root.txt
 cat root.txt
 ```
 
-**Root Flag:** `f42a447b64f431b99d7fe59f65f71bc7`
+**Root Flag:** `f42a447b64f431b99d7fe59f65f7****`
 
 ---
 
@@ -250,4 +250,4 @@ Read the root flag.
 cat /root/root.txt
 ```
 
-**Root Flag:** `f42a447b64f431b99d7fe59f65f71bc7`
+**Root Flag:** `f42a447b64f431b99d7fe59f65f7****`
