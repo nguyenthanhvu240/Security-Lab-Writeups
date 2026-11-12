@@ -209,6 +209,8 @@ Output:
 uid=33(www-data) gid=33(www-data) groups=33(www-data)
 ```
 
+<img width="975" height="338" alt="image" src="https://github.com/user-attachments/assets/9ff6dc5a-4d75-4bdd-864e-f5e60be05d82" />
+
 Code execution is confirmed as `www-data` on the EC2 instance.
 
 ---
@@ -236,6 +238,9 @@ Output:
 ```
 cg-ec2-role-lab
 ```
+
+<img width="975" height="227" alt="image" src="https://github.com/user-attachments/assets/850bc9e6-9835-4b89-a3c9-261ed530dda6" />
+
 
 Note: the initial attempt used the profile name `cg-ec2-instance-profile-lab` from the
 EC2 describe output, which returned a 404. The correct path uses the role name, not
@@ -319,6 +324,9 @@ Output:
     ]
 }
 ```
+
+<img width="975" height="479" alt="image" src="https://github.com/user-attachments/assets/22e55968-44b2-4aac-abe7-1645bbffac92" />
+
 
 One secret was present. Its value was retrieved:
 
